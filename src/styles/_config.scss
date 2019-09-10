@@ -1,0 +1,52 @@
+@import "variables";
+
+html,
+body {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.bigWrap {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: $colorTextBlack;
+  font-weight: 400;
+}
+
+.content {
+  width: $widthFull;
+  margin: 0 auto;
+  flex: 1;
+  background-color: #F2F0F0;
+}
+
+.container {
+  max-width: $widthContainer;
+  margin: 0 auto;
+}
+
+svg path {
+  fill: inherit;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+
+

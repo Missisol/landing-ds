@@ -1,0 +1,21 @@
+.mainScreenWrap {
+  width: 100%;
+  height: 800px;
+  background-color: #EFF9FF;
+  position: absolute;
+  z-index: -200;
+
+  &__polygon {
+    position: absolute;
+    top: 0;
+    right: -15px;
+    z-index: -100;
+  }
+
+  &__auto {
+    position: absolute;
+    z-index: -90;
+    right: -17px;
+    top: 114px;
+  }
+}

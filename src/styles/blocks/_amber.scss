@@ -1,0 +1,42 @@
+@import "../variables";
+
+.amber {
+  display: flex;
+  flex-direction: column;
+  margin-top: 39px;
+
+  &__title {
+    color: $colorButton;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 74px;
+  }
+
+  &__line {
+    width: 377px;
+    height: 1px;
+    background-color: $colorElem;
+
+    &_top {
+      margin-left: 245px;
+    }
+
+    &_bottom {
+      margin-left: 797px;
+    }
+  }
+
+
+  &__text {
+    margin: 48px 0 40px 400px;
+    padding-right: 40px;
+  }
+
+  &__tagline {
+    margin-top: 41px;
+    font-size: 36px;
+    align-self: flex-end;
+  }
+}
+

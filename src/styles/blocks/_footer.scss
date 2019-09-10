@@ -1,0 +1,76 @@
+@import "../variables";
+
+.footerBigWrap {
+  width: $widthFull;
+  margin: 0 auto;
+  font-size: 18px;
+  position: relative;
+}
+
+.footerAround {
+  height: 90px;
+  background-color: $colorBcg;
+
+  &__wrap {
+    width: 100%;
+    padding-top: 14px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+  }
+
+  &__policy {
+    font-size: 12px;
+    color: $colorTextWhite;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.footerInnerWrap {
+  background-color: $colorButton;
+}
+
+.footer {
+  height: 51px;
+  display: flex;
+  justify-content: space-between;
+
+  &__menuWrap {
+    display: flex;
+  }
+
+  &__title {
+    margin-left: 0;
+    margin-right: 86px;
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+  }
+
+  &__linkWrap {
+    margin-right: 50px;
+  }
+
+  &__logo {
+    position: absolute;
+    top: 29%;
+    left: 46%;
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+  }
+
+  &__iconWrap {
+    margin-left: 23px;
+  }
+}

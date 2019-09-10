@@ -1,0 +1,193 @@
+@import "../variables";
+
+.contactsWrap {
+  height: 965px;
+  background: url(../assets/images/contacts.png) 50% 0 no-repeat;
+}
+
+.contacts {
+  height: 100%;
+  padding-top: 133px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  &__form {
+    align-self: center;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  &__inputWrap {
+    width: 680px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  &__input {
+    width: 320px;
+    height: 61px;
+    background: #ffffff;
+    border-radius: 17px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    font-size: 14px;
+    padding: 30px 18px;
+    border: none;
+  }
+
+  &__error {
+    position: absolute;
+    font-size: 14px;
+    color: $colorError;
+    top: 74px;
+  }
+
+   &__field-userPhone {
+     left: 363px;
+  }
+
+  &__agreement {
+    font-size: 12px;
+    margin-top: 38px;
+  }
+
+  &__span {
+    font-weight: 700;
+  }
+
+  &__submit {
+    width: 306px;
+    height: 61px;
+    border: 1px solid $colorButton;
+    border-radius: 50px;
+    margin-top: 16px;
+    background-color: transparent;
+    color: $colorTextBlack;
+    transition: all .8s ease;
+
+    &:hover {
+      background-color: $colorButton;
+      color: $colorTextWhite;
+    }
+
+    &:active {
+      background-color: $colorButton;
+      color: $colorTextWhite;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    }
+  }
+
+  &__accept {
+    position: relative;
+    display: none;
+    flex-direction: column;
+    height: 204px;
+    margin-top: 130px;
+    align-items: center;
+    padding-top: 46px;
+  }
+
+  &__acceptTitle {
+    position: relative;
+    z-index: 10;
+    font-size: 36px;
+  }
+
+  &__bar {
+    position: absolute;
+    top: 71px;
+    left: 430px;
+    width: 362px;
+    height: 15px;
+    background-color: $colorElem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  }
+
+  &__acceptText {
+    margin-top: 35px;
+  }
+
+  &__or {
+    margin-top: 74px;
+    text-align: center;
+  }
+
+  &__text {
+    width: 660px;
+    margin-top: 40px;
+    text-align: center;
+    line-height: 34px;
+    align-self: center;
+  }
+
+  &__mail {
+    font-weight: 700;
+    display: inline-block;
+    color: $colorLink;
+  }
+
+  &__plantWrap {
+    position: absolute;
+    bottom: 0;
+    right: -60px;
+    width: 157px;
+    height: 610px;
+  }
+
+  &__plant {
+    position: absolute;
+  }
+}
+
+#leaf {
+  bottom: 0;
+  right: 54px;
+}
+
+#stem {
+  bottom: 0;
+  right: 85px;
+}
+
+#fl-1 {
+  left: -17px;
+  bottom: 235px;
+}
+
+#fl-2 {
+  top: 229px;
+  left: 77px;
+}
+
+#fl-3 {
+  top: 170px;
+  left: 5px;
+}
+
+#fl-4 {
+  top: 105px;
+  left: 65px;
+}
+
+#fl-5 {
+  left: -22px;
+}
+
+.unvisible {
+  display: none;
+}
+
+.show {
+  display: flex;
+}
+
+//.error {
+//  color: $colorError;
+//}
+
+
+

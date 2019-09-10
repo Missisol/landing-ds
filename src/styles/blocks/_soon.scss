@@ -1,0 +1,26 @@
+@import "../variables";
+
+.soon {
+  height: 306px;
+
+  &__title {
+    margin-bottom: 50px;
+  }
+
+  &__line {
+
+    &_top {
+      margin-left: 178px;
+    }
+
+    &_bottom {
+      margin-left: 756px;
+    }
+  }
+
+  &__text {
+    margin: 25px 0 21px 300px;
+    padding-right: 164px;
+  }
+
+}

@@ -1,0 +1,72 @@
+@import "../variables";
+
+.headerRight {
+  position: relative;
+  flex-basis: 1200px;
+  height: 663px;
+  background: url(../assets/images/header/h-right-g.png) no-repeat;
+
+   &__triangleWrap,
+   &__linesWrap,
+   &__roundsWrap,
+   &__chartWrap,
+   &__arrFirstWrap,
+   &__arrSecondWrap,
+   &__arrThirdWrap {
+     position: absolute;
+
+     &:hover {
+       .headerRight__svgIcon {
+         fill: $colorTextWhite;
+       }
+     }
+   }
+
+  &__triangleWrap {
+    left: 49px;
+    top: 43px;
+  }
+
+  &__linesWrap {
+    left: 73px;
+    top: 254px;
+  }
+
+  &__roundsWrap {
+    left: 480px;
+    top: 248px;
+  }
+
+  &__chartWrap {
+    right: 52px;
+    top: 87px;
+  }
+
+  &__arrFirstWrap {
+    left: 358px;
+    top: 98px;
+  }
+
+  &__arrSecondWrap {
+    left: 276px;
+    bottom: 262px;
+  }
+
+  &__arrThirdWrap {
+    right: 367px;
+    bottom: 237px;
+  }
+
+  &__svgIcon {
+    fill: $colorBcg;
+    transition: all .8s ease;
+  }
+
+  &__women {
+    position: absolute;
+    z-index: 100;
+    right: 107px;
+    bottom: 0;
+  }
+}
+

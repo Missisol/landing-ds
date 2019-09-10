@@ -1,0 +1,14 @@
+@import "../variables";
+
+.main {
+
+  &__title {
+    font-weight: 400;
+    font-size: 48px;
+    color: $colorButton;
+  }
+
+  &__text {
+    line-height: 35px;
+  }
+}
